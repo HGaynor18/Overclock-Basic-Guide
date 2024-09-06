@@ -1,0 +1,32 @@
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore logs and other OS-generated files
+*.log
+*.tmp
+*.bak
+
+# Ignore build artifacts and system files
+dist/
+node_modules/
+coverage/
+.env
+.idea/
+.vscode/
+
+# Ignore compiled CSS from SCSS/SASS (if applicable)
+*.css.map
+
+# Ignore backup files
+*.bak
+*.old
+*.swp
+
+# Ignore minified files
+*.min.js
+*.min.css
+
+# Ignore git-ignored files created by editors
+*.sublime-workspace
+*.sublime-project
